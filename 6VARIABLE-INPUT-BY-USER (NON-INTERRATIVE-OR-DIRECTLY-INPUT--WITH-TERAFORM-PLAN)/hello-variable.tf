@@ -6,5 +6,5 @@ output "print-kro-naam" {
 }
 
 
-# teraform plan -var username="Pooja"
+# terraform plan -var username="Pooja"
 # for this system do not ask for value directly take the value
