@@ -8,5 +8,5 @@ variable "age" {
     type = number
 
     # this are pre defined values if u dont provide any values this will automaticly set
-    # you have to give same type in input otherwise it will give error
+    # you have to give same datatype as default and type in input otherwise it will give error
 }
