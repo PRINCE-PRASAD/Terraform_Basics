@@ -11,10 +11,7 @@ resource "github_repository" "terraform-first-repository" {
 } 
 # to check providers use command terraform providers
 # for download plugin use command terraform init (for install plug in of the providers)
-<<<<<<< HEAD
-# create a toke from git hub account
-=======
->>>>>>> d79c653df65415af2900584efb3543870ffa8954
+# create a token from git hub account
 # for create the resource or repo use command terraform apply
 
 
