@@ -17,3 +17,5 @@ variable "username" {
 output "userage" {
   value = "my name is ${var.username} and my age is ${lookup(var.userage, "${var.username}")}"
 }
+
+# YOU HAVE TO WRITE USERNAME FOR CORRESPONDING USERAGE
