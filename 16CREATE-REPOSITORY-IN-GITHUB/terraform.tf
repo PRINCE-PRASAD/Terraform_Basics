@@ -8,10 +8,12 @@ resource "github_repository" "terraform-first-repository" {
   description = "My first resource from terraform(Automated)"
   visibility = "public"
   auto_init = true
-} 
+}
+
+
 # to check providers use command terraform providers
 # for download plugin use command terraform init (for install plug in of the providers)
-# create a token from git hub account
+# create a toke from git hub account
 # for create the resource or repo use command terraform apply
 
 
