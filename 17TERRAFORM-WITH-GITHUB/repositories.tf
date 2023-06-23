@@ -21,3 +21,4 @@ output "repo-url" {
 # terraform refresh is command is use to check whether any changes done manully in github if happens where
 # always whatever written in terrafom file is final no manual changes will be entetained\
 # for check the output use the command terraform output repo-url (here repo-url is variable)
+# for format the terrform file or make the file more lokkig goot with proper space use command terraform fmt
