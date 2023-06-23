@@ -1,8 +1,8 @@
 resource "github_repository" "terraform-first-repository" {
   name        = "first-repo-from-terraform"
   description = "My first resource from terraform(Automated)"
-  visibility = "public"
-  auto_init = true
+  visibility  = "public"
+  auto_init   = true
 }
 
 output "repo-url" {
