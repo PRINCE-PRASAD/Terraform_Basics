@@ -69,29 +69,3 @@ resource "aws_instance" "web" {
   }
 }
 
-
-# Rules
-
-# create a user in IAM and grand the permission of manging the EC2
-# create a secret key and acces key of user for 
-# ensure that location of ami and provider at code are same 
-# terraform init 
-# terraform validate
-# terraform apply
-
-# insilizese the key using command ssh-keygen -t rsa
-# for keep the key in same directory use ./id_rsa
-
-# ingress=> incoming , egress=> outgoing
-
-# for connecting the server or ssh the server in your pc use command ssh -i id_rsa (servername)@(public-ip) example (ssh -i id_rsa ubuntu@16.170.243.120)
-
-
-# sudo apt-get install nginx
-
-# ubuntu@ip-172-31-43-129:~$ cd /var/www/html/
-# ubuntu@ip-172-31-43-129:/var/www/html$ ls
-# index.nginx-debian.html
-# ubuntu@ip-172-31-43-129:/var/www/html$ sudo su
-# root@ip-172-31-43-129:/var/www/html#  echo "Hello gupta hum ye sikh gaye" > index.nginx-debian.html
-# root@ip-172-31-43-129:/var/www/html#

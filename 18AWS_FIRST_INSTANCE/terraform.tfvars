@@ -4,5 +4,5 @@ instance_type = "t3.micro"
 
 
 #this two will be defined in the env variable for not commit purpose 
-access_key = "SAMPLE KEY"
-secret_key = "SAMPLE KEY"
+access_key = "sample"
+secret_key = "sample"
